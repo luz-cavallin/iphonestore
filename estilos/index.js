@@ -128,6 +128,8 @@ function cartelCompra(){
     })
 }
 
+
+
 function realizarCompra(){
     localStorage.removeItem("carrito");
     carritoDiv.innerHTML = "";
@@ -135,7 +137,3 @@ function realizarCompra(){
     carrito =[];
     cartelCompra();
 }
-
-
-
-
